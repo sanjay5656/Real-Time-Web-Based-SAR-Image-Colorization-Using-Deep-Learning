@@ -26,32 +26,28 @@ The core model is based on a UNet-based generator, which synthesizes high-qualit
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![image](https://github.com/user-attachments/assets/0b94c70b-521e-40ed-a4bd-189c6f473b66)
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+### Input
+![in](https://github.com/user-attachments/assets/8efcf318-4acd-401f-92c5-87f6960f2403)
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+### Output
+![out](https://github.com/user-attachments/assets/5ee66423-c921-4376-9de3-ea843f03d19a)
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The trained GAN successfully translates SAR images into high-quality optical satellite images, producing visually realistic outputs with enhanced structural details. Quantitative evaluations using metrics like SSIM and PSNR indicate a high similarity between generated and real images, while the model demonstrates strong generalization on unseen SAR data across various terrains. Visualization with Matplotlib confirms the effectiveness of the image translation process. This innovation enhances remote sensing applications by providing clearer optical images in cloud-covered regions, aiding in environmental monitoring, disaster assessment, and land cover classification. It supports better decision-making in defense, agriculture, and urban planning by offering reliable optical data while reducing dependence on costly optical satellite imagery. Additionally, this work opens new possibilities for future research in multi-modal satellite image translation and enhancement.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. A benchmarking protocol for SAR colorization: From regression to deep learning approaches. Kangqing Shen, Gemine Vivone, Xiaoyuan Yang, Simone Lolli, Michael Schmitt 01 Jan, 2024 -  Neural Networks (Elsevier BV)  - Vol. 169, pp 698-712.
+2. A Study on the Improvement of SAR Image Colorization Performance Using CUT and SPatchGAN Discriminator Seung-Min Shin, Han Seo Oh, D. Chung 30 Apr, 2023 Journal of The Korean Society for Aerona Vol. 51, Iss: 4, pp 273-280.
+3. Multi-Band and Polarization SAR Images Colorization Fusion . Xinchen Li, Dan Jing, Yachao Li, Liang Guo, Liang Han, Qing Xu, Mengdao Xing, Yihua Hu 18 Aug 2022, -  Remote sensing  - Vol. 14, Iss: 16, pp 4022-4022.
+4. Labeling Dataset Based Colorization of SAR Images Using Cycle GAN Sam Young Lee, D. Chung 01 Oct ,2022  – The Journal of Korean Institute of Elect  - Vol. 33, Iss: 10, pp 776-783.
+5. A Critical Examination of SAR Colorization Impact on Flood Mapping Accuracy. Nour Aburaed,Mina Al-Saad,M. Sami Zitouni,Mohammed Q. Alkhatib,Saeed Al Mansoori,Hussain Al-Ahmad 07 Jul 2024, pp 8504-8508.
 
 
 
